@@ -25,7 +25,7 @@ jobs:
       run: ruff check .
     - name: Test with pytest
       working-directory: src
-      run: pytest tests.py
+      run: pytest -o python_files=tests.py tests.py
 
   login:
     needs: test_and_build
