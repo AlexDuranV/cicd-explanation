@@ -1,4 +1,6 @@
+import os
+
 class Calculator:
     @staticmethod
     def sum(a: int, b: int) -> int:
-        return a + b
+        return 0
